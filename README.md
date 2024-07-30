@@ -31,4 +31,4 @@ Here is a table of common CO thresholds based on guidelines from various agencie
 The code measures the amount of CO in ppm in the air using an MQ-7 sensor. By using a resistor, you can obtain the voltage value, which is then converted into ppm with the help of the Arduino MQ-7 library from which the formulas are derived.
 
 The HTCC-AB02S is slightly different from Arduino because it accepts voltage values up to 2.4V maximum. Therefore, a voltage divider is necessary to reduce the sensor voltage (which can be up to 5V) to 2.4V. For this purpose, a voltage divider with two 10k ohm resistors is used. This way, the input resistance to the sensor is known, and the maximum voltage will be 2.35V.
-
+SendReceiveLoraWan_HTCC-AB02S_co sends also data from MQ-7 to loraWan
